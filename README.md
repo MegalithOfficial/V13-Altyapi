@@ -3,10 +3,13 @@
 #### Kurulum
 
  1. Adım: 
-`.env` Dosyasının içerisindeki boş kısımları doldurup dosyayı kayıt edelim.
+`config.json` Dosyasının içerisindeki boş kısımları doldurup dosyayı kayıt edelim.
 ```js
-prefix=prefixiniz
-token=tokeniniz
+{
+	"token": "Bot Token",
+	"appId": "Bot ID",
+	"guildId": "Grup ID"
+}
 ```
 2. Adım:
 `npm i` Komutu ile gerekli modülleri indirelim.
